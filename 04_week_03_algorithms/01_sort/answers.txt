@@ -1,0 +1,14 @@
+sort1 uses: bubble sort
+
+How do you know?: By applying sort 1 to different txt files we see that the timer value drops on already sorted lists.
+This is because the swap counter is not increasing and allows the algorithm to implicitly know that that the array is sorted.
+
+sort2 uses: merge sort
+
+How do you know?: By applying sort 2 to different arrays, we see no significant deviation. The running time for merge sort is
+always the same irrelevant of if the array is sorted or not. But the running time is faster than selection sort.
+
+sort3 uses: selection sort
+
+How do you know?: We see no changes in runtime if we apply sort 3 on either which txt file. The running time is always higher
+than the ones of merge sort.
