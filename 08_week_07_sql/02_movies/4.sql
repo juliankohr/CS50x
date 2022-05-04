@@ -1,0 +1,1 @@
+SELECT SUM(rating = 10.0) AS Movies_with_rating_10 FROM ratings;
