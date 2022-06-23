@@ -1,0 +1,54 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #1f1f1f;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #1f1f1f;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #1f1f1f;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #1f1f1f;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1f1f1f;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 12px;
+    color: #888888;
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #1f1f1f;
+}
+
+ul {
+    font-weight: 300;
+    font-size: 16px;
+    color: #1f1f1f;
+}
+
+th {
+    padding-right: 3px;
+}

@@ -1,0 +1,55 @@
+{% extends "layout_therapist.html" %}
+
+{% block title %}
+Result - {{ patient }}
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="pb-4 text-center">
+        <canvas id="myChart" width="400" height="200"></canvas>
+        <script>
+        var sent = {{ sent|safe }}
+        var scores = {{ scores|safe }}
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: sent,
+                datasets: [{
+                    label: 'BDI-II Result',
+                    data: scores,
+                    backgroundColor: [
+                        'rgba(13, 110, 253, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(13, 110, 253, 1)',
+                    ],
+                    borderWidth: 2.5
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 63,
+                    }
+                }
+            }
+        });
+        </script>
+    </div>
+</div>
+<div class="container">
+    <div>
+        <ul>
+            <li>0–13: minimal depression</li>
+            <li>14–19: mild depression</li>
+            <li>20–28: moderate depression</li>
+            <li>29–63: severe depression</li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "layout_therapist.html" %}
+
+{% block title %}
+History
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-start">Patient</th>
+                <th class="text-start">Sent</th>
+                <th class="text-start">Received</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tests in tests %}
+                <tr>
+                    <td class="text-start">{{ tests["patient"] }}</td>
+                    <td class="text-start">{{ tests["created"] }}</td>
+                    <td class="text-start">{{ tests["sent"] }}</td>
+                </tr>
+                {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

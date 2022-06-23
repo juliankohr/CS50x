@@ -1,0 +1,25 @@
+{% extends "layout_therapist.html" %}
+
+{% block title %}
+Send BDI-II
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="pb-4 pt-4 text-center card">
+        <form action="/send" method="post">
+            <div class="mb-3">
+                <select class="form-select mx-auto w-auto" name="patient">
+                    <option disabled="" selected="">Patient</option>
+                    {% for patients in patients %}
+                    <option value="{{ patients["username"] }}">{{ patients["username"] }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

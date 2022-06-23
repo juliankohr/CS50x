@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Start
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="pb-4">
+        <div class="pb-4 pt-4 text-center card">
+            <div class="mb-2">
+                <h1>Welcome to the Beck Depression Inventory Platform</h1>
+            </div>
+            <div>
+                <h3>Please <a href="/register">register</a> or <a href="/login">log in</a> to use.</h3>
+            </div>
+        </div>
+    </div>
+    <div class="pt-4">
+        <div>
+            <h2>About the platform</h2>
+        </div>
+        <div>
+            <p>The Beck Depression Inventory Platform is meant to support patients and psychologists throughout the
+                therapy, where the Beck Depression Inventory (BDI-II) is used as a psychometric test for measuring the
+                severity of depression. This platform enables patients to complete the BDI their device of choice and
+                submits it directly to the corresponding therapist, who will is able to see the evaluation in a
+                chronological context.</p>
+        </div>
+    </div>
+    <div class="pt-4">
+        <div>
+            <h2>About the Beck Depression Inventory</h2>
+        </div>
+        <div>
+            <p>The Beck Depression Inventory, created by Aaron T. Beck, is a 21-question multiple-choice self-report
+                inventory, one of the most widely used psychometric tests for measuring the severity of depression. Its
+                development marked a shift among mental health professionals, who had until then, viewed depression from
+                a psychodynamic perspective, instead of it being rooted in the patient's own thoughts. In its current
+                version, the BDI-II is designed for individuals aged 13 and over, and is composed of items relating to
+                symptoms of depression such as hopelessness and irritability, cognitions such as guilt or feelings of
+                being punished, as well as physical symptoms such as fatigue, weight loss, and lack of interest in sex.
+            </p>
+            <p>
+                Participants are asked to rate how they have been feeling for the past two weeks. Each answer gets
+                scored on a scale value of 0 to 3. Higher total scores indicate more severe depressive symptoms. The
+                standardized cutoffs used are:
+            </p>
+
+            <ul>
+                <li>0–13: minimal depression</li>
+                <li>14–19: mild depression</li>
+                <li>20–28: moderate depression</li>
+                <li>29–63: severe depression</li>
+            </ul>
+
+            <h6>Source: <a href="https://en.wikipedia.org/wiki/Beck_Depression_Inventory" target="_blank">Wikipedia</a>
+            </h6>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

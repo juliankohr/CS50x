@@ -1,0 +1,26 @@
+{% extends "layout_therapist.html" %}
+
+{% block title %}
+Account
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-start">Username</th>
+                <th class="text-start">Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-start">{{ username[0]["username"] }}</td>
+                <td class="text-start">{{ role[0]["role"] }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
