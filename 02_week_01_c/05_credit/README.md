@@ -17,7 +17,7 @@ That’s kind of confusing, so let’s try an example with David’s Visa: 40036
 
 1. For the sake of discussion, let’s first underline every other digit, starting with the number’s second-to-last digit:
 
-  <u>4</u>0<u>0</u>3<u>6</u>0<u>0</u>0<u>0</u>0<u>0</u>0<u>0</u>0<u>1</u>4
+  <ins>4</ins>0<ins>0</ins>3<ins>6</ins>0<ins>0</ins>0<ins>0</ins>0<ins>0</ins>0<ins>0</ins>0<ins>1</ins>4
 
   Okay, let’s multiply each of the underlined digits by 2:
 
