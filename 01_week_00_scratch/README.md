@@ -1,4 +1,4 @@
-## Scratch
+# Scratch
 
 It’s time to choose your own adventure! Your assignment, quite simply, is to implement in Scratch, at [scratch.mit.edu](https://scratch.mit.edu/), any project of your choice, be it an interactive story, game, animation, or anything else, subject only to the following requirements:
 
@@ -24,3 +24,5 @@ You might find these [tutorials](https://scratch.mit.edu/projects/editor/?tutori
 If, along the way, you find it too difficult to implement some feature, try not to fret; alter your design or work around the problem. If you set out to implement an idea that you find fun, odds are you won’t find it too hard to satisfy the above requirements.
 
 Alright, off you go. Make us proud!
+
+Once finished with your project, select File > Save now one last time. Then select File > Save to your computer and keep that file so that you can submit it. If prompted by your computer to Open or Save the file, be sure to Save it.
