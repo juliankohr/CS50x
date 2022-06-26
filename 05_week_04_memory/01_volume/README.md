@@ -32,3 +32,5 @@ Complete the implementation of `volume.c`, such that it changes the volume of a 
 - Your program should then read the rest of the data from the WAV file, one 16-bit (2-byte) sample at a time. Your program should multiply each sample by the `factor` and write the new sample to the output file.
   - You may assume that the WAV file will use 16-bit signed values as samples. In practice, WAV files can have varying numbers of bits per sample, but we’ll assume 16-bit samples for this lab.
 - Your program, if it uses `malloc`, must not leak any memory.
+
+https://cs50.harvard.edu/x/2022/labs/4/
