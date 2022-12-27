@@ -20,7 +20,6 @@ Implement a program that prints out a half-pyramid of a specified height, per th
 - Then, generate (with the help of `print` and one or more loops) the desired half-pyramid.
 - Take care to align the bottom-left corner of your half-pyramid with the left-hand edge of your terminal window.
 
-
 ## Usage
 
 Your program should behave per the example below.

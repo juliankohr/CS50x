@@ -15,7 +15,6 @@ Implement a program that calculates the minimum number of coins required to give
 - If the user fails to provide a non-negative value, your program should re-prompt the user for a valid amount again and again until the user complies.
 - Incidentally, so that we can automate some tests of your code, we ask that your program’s last line of output be only the minimum number of coins possible: an integer followed by a newline.
 
-
 ## Usage
 
 Your program should behave per the example below.
