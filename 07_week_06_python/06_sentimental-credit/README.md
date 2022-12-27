@@ -26,6 +26,6 @@ AMEX
 
 ## Hints
 
-- It’s possible to use regular expressions to validate user input. You might use Python’s `[re](https://docs.python.org/3/library/re.html)` module, for example, to check whether the user’s input is indeed a sequence of digits of the correct length.
+- It’s possible to use regular expressions to validate user input. You might use Python’s [`re`](https://docs.python.org/3/library/re.html) module, for example, to check whether the user’s input is indeed a sequence of digits of the correct length.
 
 https://cs50.harvard.edu/x/2022/psets/6/credit/
