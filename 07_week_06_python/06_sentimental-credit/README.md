@@ -14,7 +14,6 @@ So that we can automate some tests of your code, we ask that your program’s la
 - For simplicity, you may assume that the user’s input will be entirely numeric (i.e., devoid of hyphens, as might be printed on an actual card).
 - Best to use `get_int` or `get_string` from CS50’s library to get users’ input, depending on how you to decide to implement this one.
 
-
 ## Usage
 
 Your program should behave per the example below.
