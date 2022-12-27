@@ -1,6 +1,7 @@
 # Mario
 
 ![screenshot of Mario jumping up pyramid](https://cs50.harvard.edu/x/2022/psets/6/mario/less/pyramid.png)
+
 Implement a program that prints out a half-pyramid of a specified height, per the below.
  ```
  $ python mario.py
